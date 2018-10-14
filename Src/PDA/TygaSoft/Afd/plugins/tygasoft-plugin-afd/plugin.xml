@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="tygasoft-plugin-afd" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <name>AfdPlugin</name>
+  <js-module name="AfdPlugin" src="www/AfdPlugin.js">
+    <clobbers target="AfdPlugin" />
+  </js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="AfdPlugin">
+        <param name="android-package" value="com.tygasoft.plugins.AfdPlugin" />
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml">
+      <uses-permission android:name="android.permission.INTERNET" />
+    </config-file>
+    <source-file src="src/android/AfdPlugin.java" target-dir="src/com/tygasoft/plugins" />
+    <source-file src="src/android/IAfd.java" target-dir="src/com/tygasoft/services" />
+    <source-file src="src/android/AfdService.java" target-dir="src/com/tygasoft/services" />
+    <source-file src="src/android/ResResultInfo.java" target-dir="src/com/tygasoft/model" />
+    <source-file src="src/android/libs/gson280.jar" target-dir="libs" />
+    <source-file src="src/android/libs/ksoap2Android24.jar" target-dir="libs" />
+  </platform>
+</plugin>
