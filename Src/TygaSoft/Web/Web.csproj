@@ -756,13 +756,12 @@
     <Content Include="Log4net.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="Scripts\Plugins\Jeasyui15\themes\material\images\Thumbs.db" />
     <Content Include="Handlers\ValidateCode.ashx" />
     <Content Include="Handlers\HandlerContent.ashx" />
     <Content Include="Handlers\HandlerUpload.ashx" />
     <Content Include="Handlers\Web.config" />
     <Content Include="Masters\Shares.Master" />
-    <Content Include="Files\Download\afdsaas-release-v001.apk" />
+    <None Include="Files\Download\afd-release-v9998.apk" />
     <None Include="Properties\PublishProfiles\Afd.Web.pubxml" />
     <Content Include="Manages\Web.config">
       <SubType>Designer</SubType>
