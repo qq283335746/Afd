@@ -1,5 +1,0 @@
-D:\VSWorkspace\SoftCode\阿凡达物流项目\源码\TygaSoft\SysException\bin\Release\TygaSoft.SysException.dll
-D:\VSWorkspace\SoftCode\阿凡达物流项目\源码\TygaSoft\SysException\bin\Release\TygaSoft.SysException.pdb
-D:\VSWorkspace\SoftCode\阿凡达物流项目\源码\TygaSoft\SysException\bin\Release\log4net.dll
-D:\VSWorkspace\SoftCode\阿凡达物流项目\源码\TygaSoft\SysException\obj\Release\TygaSoft.SysException.dll
-D:\VSWorkspace\SoftCode\阿凡达物流项目\源码\TygaSoft\SysException\obj\Release\TygaSoft.SysException.pdb
